@@ -1,0 +1,39 @@
+/*HTML Default Elements*/
+body{
+    font-family: sans-serif;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+/*User Defined Classes*/
+.button{
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+    margin: 6px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+}
+
+/*Color Pallets*/
+.red{
+    background-color: #f00;
+}
+.green{
+    background-color: #0f0;
+}
+.yellow{
+    background-color: #ffcf00;
+}
+.gray{
+    background-color: #cdcdcd;
+    color: #00f;
+}
