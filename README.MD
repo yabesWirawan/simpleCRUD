@@ -1,4 +1,4 @@
-<h1>simple-CRMD</h1>
+<h1>simple-CRUD</h1>
 1. Database settings
 <br>
 Change database settings under Models/Settings/Conn.php according to phpmyadmin environment setup and database.
