@@ -9,7 +9,7 @@
     <center><h1>Error</h1></center>
     <center>
         <p>
-            Halaman ini tidak ditemukan ...
+            Halaman ini tidak ditemukan.
         </p>
     </center>
     <center><a href="index.php" class="button gray">Kembali ke halaman utama</a></center>
