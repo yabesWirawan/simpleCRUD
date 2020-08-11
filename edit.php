@@ -1,12 +1,10 @@
 <?php
-// Security prevention
 $id = $_GET['id'];
 if (!isset($id)) {
     header('Location: error.php');
     die();
 }
 
-// Include query yang ingin ditampilkan pada halaman ini
 include('Query/select_detail_mahasiswa.php');
 ?>
 <!DOCTYPE html>
@@ -19,16 +17,13 @@ include('Query/select_detail_mahasiswa.php');
 <body>
     <center><h1>Edit Mahasiswa</h1></center>
 
-    <!-- Display nama mahasiswa yang ingin diedit -->
+    <!-- Menampilkan nama mahasiswa yang ingin diedit -->
     <center>
         <p>
             <?php echo $mahasiswa->array[0]['nama']; ?>
         </p>
     </center>
 
-    <center>
-        <i>Tiap kali berhasil update, user akan diarahkan kembali ke halaman daftar mahasiswa</i>
-    </center>
     <br>
     <br>
 
