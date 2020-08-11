@@ -9,7 +9,7 @@
     <center><h1>Error</h1></center>
     <center>
         <p>
-            Halaman ini tidak ditemukan.
+            Terdapat errata. Periksa kembali data yang diinput pada sistem.
         </p>
     </center>
     <center><a href="index.php" class="button gray">Kembali ke halaman utama</a></center>
