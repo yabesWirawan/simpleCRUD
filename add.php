@@ -1,5 +1,4 @@
 <?php
-// Include query yang ingin ditampilkan pada halaman ini
 include('Query/select_ai_mahasiswa.php');
 ?>
 <!DOCTYPE html>
@@ -10,14 +9,11 @@ include('Query/select_ai_mahasiswa.php');
     <link rel="stylesheet" href="Assets/css/master.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-    <center><h1>Tambah Mahasiswa</h1></center>
-    <center>
-        <i>Tiap kali berhasil insert, NRP akan ke auto-increment dengan sendirinya</i>
-    </center>
+    <center><h1>Menambahkan Mahasiswa</h1></center>
     <br>
     <br>
 
-    <!-- Form tambah mahasiswa -->
+    <!-- Form identitas mahasiswa -->
     <form action="Query/insert_mahasiswa.php" method="post">
 
         NRP:<br>
@@ -32,8 +28,7 @@ include('Query/select_ai_mahasiswa.php');
         Jurusan:<br>
         <input type="text" name="jurusan"><br><br>
 
-        <!-- Tombol Submit: Semua data akan disubmit ke Query/insert_mahasiswa.php -->
-        <center><input type="submit" value="Submit!"></center>
+        <center><input type="submit" value="Submit"></center>
 
     </form>
     <br>
