@@ -1,5 +1,4 @@
 <?php
-// Include query yang ingin ditampilkan pada halaman ini
 include('Query/select_mahasiswa.php');
 ?>
 <!DOCTYPE html>
@@ -32,14 +31,14 @@ include('Query/select_mahasiswa.php');
                 echo "
                     <tr>
 
-                        <!-- Tampilkan data sesuai dengan nama field pada database -->
+                        <!-- Menampilkan data sesuai dengan nama field pada database -->
 
                         <td>{$m['nrp']}</td>
                         <td>{$m['nama']}</td>
                         <td>{$m['fakultas']}</td>
                         <td>{$m['jurusan']}</td>
 
-                        <!-- Tombol untuk edit dan delete entri -->
+                        <!-- Tombol untuk ubah dan hapus entri -->
 
                         <td>
                             <center>
